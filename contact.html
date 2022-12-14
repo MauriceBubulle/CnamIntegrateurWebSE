@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Lato:wght@300&family=Quicksand:wght@300&family=Roboto+Mono:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Lato:wght@300&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <title>Contact</title>
+</head>
+<body>
+    <div id="order_parent">
+
+        <!-- Header / Black Row 1 -->
+        <div class="header">
+            <div class="subheader">
+                <div class="logo">
+                    <h1>Saul Etheve</h1>
+                </div>
+                <ul class="navigation">
+                    <a href="index.html"><li class="nav">Présentation</li></a>
+                    <a href="cv.html"><li class="nav">CV</li></a>
+                    <a href="portfolio.html"><li class="nav">Portfolio</li></a>
+                    <a href="contact.html"><li class="nav"><span>Contact</span></li></a>
+                </ul>
+            </div>
+        </div>
+        <h1>Contact</h1>
+			<h2>Formulaire de contact :</h2>
+			<form>
+				<p><i>Les champs suivis d'une asterisque rouge</i> <em>*</em> <i>sont</i> <em>obligatoires</em>.</p>
+				<fieldset>
+					<legend>Contact</legend>
+					<div>
+						<label for="Madame"><input class="Civ" type="radio" required="" name="Civ" value="" > Madame </label>
+						<label for="Monsieur"><input class="Civ" type="radio" required="" name="Civ" value="" > Monsieur </label>
+						<label for="Autre"><input class="Civ" type="radio" required="" name="Civ" value="" > Autre </label>
+					</div>
+					<div>
+						</br>
+						<label  for="Nom"> Nom <em>*</em> :</label>
+						<input id="Nom" type="text" placeholder="Dupont" required="Ce champs est obligatoire.">
+					</div>
+					<div>
+						</br>
+						<label  for="Prenom"> Prénom <em>*</em> :</label>
+						<input id="Prenom" type="text" placeholder="Michel" required="Ce champs est obligatoire.">
+					</div>
+					<div>
+						</br>
+						<label  for="telephone"> Téléphone :</label>
+						<input id="telephone" type="tel" placeholder="0XXXXXXXXX" pattern={0-9}(10)>
+					</div>
+					<div>
+						</br>
+						<label  for="email"> E-mail <em>*</em> :</label>
+						<input id="email" type="email" placeholder="dupont.michel@mail.com" required="Ce champs est obligatoire.">
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Demande</legend>
+					<div>
+						<label  for="nature"> Type de demande :</label>
+						<select id="nature">
+							<option value=" " name="choix" id="nature"> Selectionner votre choix</option>
+							<option value="message" required="" name="demande_nat" id="nature">Message</option>
+							<option value="tech_issue" required="" name="demande_nat" id="nature">Problème 	Technique</option>
+							<option value="modif_issue" required="" name="demande_nat" id="nature">Demande de modification</option>
+						</select>
+					</div>
+					<div>
+					</br>
+						<label  for="demande"> Demande <em>*</em> :</label>
+						<textarea id="demande" type="text" required="Ce champs est obligatoire." rows="3" cols="60" maxlength="500" minlength="30"></textarea>
+					</div>
+					<div>
+						</br>
+						<label for="agreement"> <input class="agree" type="checkbox" required=""> J'accepte que mes données soit conservées jusqu'à 6 mois.<em>*</em></label>
+					</div>
+					<div>
+						</br>
+						<input id="validation" type="submit" name="Valider" value="Send">
+					</div>
+				</fieldset>
+
+			</form>
+</body>
+</html>

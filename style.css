@@ -1,0 +1,158 @@
+*{
+    color: rgb(255, 255, 255);
+    font-family: roboto mono;
+    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	/* list-style: none; */
+}
+
+body{
+	background-color: #242929;
+    margin-left: 15%;
+    margin-right: 15%;
+	padding-top: 100px;
+}
+
+.header{
+	top: 0;
+	width: 100%;
+	height:  100px;
+	position: fixed;
+	margin-left: -10%;
+}
+
+.subheader{
+	height: 100%;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo{
+    height: 100%;
+    display: table-cell;
+    float: left;
+}
+
+.logo h1{
+    height: 100%;
+    /* display: table-cell; */
+    /* text-align: center; */
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation button{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0 40px;
+	border: none;
+	background: none;
+	font-size: 16px;
+}
+
+.navigation li{
+	list-style: none;
+	display: table-cell;
+	vertical-align: middle;
+	/* height: 100%; */
+	color: white;
+}
+
+.nav:hover:first-child{
+	/* background: white; */
+	border : 1px solid white;
+	/* color: black; */
+    transition: 0.5s;
+}
+
+/* #t1{
+    text-decoration: underline;
+} */
+
+#nature{
+	color: #000000;
+}
+
+em {
+	font-weight : bold;
+	font-style : normal;
+	color : red;
+}
+
+fieldset{
+	border : 1px solid white;
+	width : 97.4%;
+	padding: 20px;
+}
+
+input{
+	background-color : #535c5c;
+	border : 1px solid #535c5c;
+}
+
+textarea{
+	background-color : #535c5c;
+	border : 1px solid #535c5c;
+	vertical-align : top;
+	resize : vertical;
+}
+
+.dlbtn{
+	text-decoration: underline;
+}
+
+#exo3p1{
+	margin: 15px;
+	color: red;
+	font-size: 30px;
+}
+
+#exo3p2{
+	margin: 15px;
+	color: green;
+	font-size: 25px;
+}
+
+table{
+	width: 900px;
+	margin: auto;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	border-collapse: collapse;
+	margin: 30px;
+	background-color: #ffffff;
+}
+
+.rowtitle{
+	text-align: left;
+}
+
+.tablebody {
+	height: 40px;
+}
+
+th{
+	border: 1px solid #000000;
+	padding: 5px;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+td{
+	border: 1px solid #000000;
+	padding: 5px;
+	color: #000000;
+	font-family: sans-serif;
+}
+
+#midi{
+	background-color: #fcff5d;
+	color: black;
+}
